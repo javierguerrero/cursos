@@ -97,6 +97,7 @@
 	* https://alistapart.com/article/object-oriented-ux/
 	* https://uxdesign.cc/atomic-design-how-to-design-systems-of-components-ab41f24f260e
 	* https://docs.google.com/document/d/1aNqhwmWaSWpoZw7oeiehiCv75hcahXKNSwjur__nGE0/edit
+	* https://sg.com.mx/revista/53/c-mo-estructurar-el-contenido-tu-aplicaci-n
 * Tarea: 
 	* Identificar los objetos de GastroTour y las aplicaciones que se le aplicarían a esos objetos...
 	* Para esto es necesario leer un documento de requerimientos
