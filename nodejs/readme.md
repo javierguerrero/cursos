@@ -123,10 +123,36 @@ https://http.cat/
 	* Estructura
 		* Añadir ? al final de la URL
 		* nombre=valor
-		* separarlos con &
+		* separarlos con ampersand
 
+## Módulo 2
 
+### Crear un servidor HTTP desde NodeJS
 
-## Módulo 2
-
-
+* VSCode: abrir terminal --> View/Terminal
+* Comprobar que node está funcionando
+````
+node --version
+````
+* Cuando instalamos Node.js, se nos instala NPM
+	* NPM = Node Package Manager
+	* Nos va a permitir trabajar con paquetes en node (paquete = librería)
+* Vamos a crear nuestro paquete
+````
+npm init
+````
+* El **entry point** es el punto de entrada hacia nuestro paquete, el primer archivo javascript que se va a ejecutar 
+* Vamos a utilizar una librería para crear servidores en node.js: express
+````
+npm i express
+````
+* La forma de invocar módulos es la siguiente
+````
+const express = require('express');
+o
+import express from 'express';
+````
+* Para ejecutar una aplicación de express:
+````
+node server
+````
