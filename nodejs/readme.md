@@ -156,3 +156,91 @@ import express from 'express';
 ````
 node server
 ````
+
+### ¿Cómo pueden venir las peticiones?
+
+* Insomnia: programa para hacer peticiones HTTP
+* Para gestionar los distintos tipos de peticiones, vamos a utlizar el router de express
+* Matar el servidor -> Ctrl + C
+* Los parámetros req y res forman parte de una función HTTP. 
+	* req es el acrónimo de request, que significa solicitud, contiene toda la información de la solicitud, incluidos los paramétros de la solicitud, los encabezados, el cuerpo de la solicitud y más.
+	* res es el acrónimo de response, que significa respuesta, contiene la respuesta a la solicitud.
+
+### Recibir información desde el cliente: Body y Query
+
+* Instalar **nodemon** para que cada vez que haya un cambio en nuestro proyecto se reinicie el servidor
+
+```
+npm install -g nodemon 
+```
+* Luego, en vez de ejecutar con **node server** ahora usar
+```
+nodemon server
+```
+* Para trabajar con el Body instalamos el BodyParser
+```
+npm i body-parser
+```
+* El body siempre lo encontramos en el request
+
+### Información contextual: Leer las cabeceras
+
+* req.headers nos va a incluir la cabecera
+* el **user-agent** es el navegador que está usando el usuario (chrome, firefox, postman)
+* Cabeceras útiles
+	* cache-control --> para especificar cache para imágenes, archivos de js
+	* user-agent --> para saber si es mobile, apple, windows, linux, etc.
+	* accept
+	* accept-language
+* Se pueden definir cabeceras personalizadas
+
+### Tipos de respuesta: Vacía, plana, con datos y estructurada
+
+* Se puede devolver un estado
+```
+router.post('/demo', function(req, res){
+    res.status(201).send();
+});
+```
+* Respuesta estructurada
+```
+router.post('/demo', function(req, res){
+    res.status(201).send({error:'', body:'Creado correctamente'});
+});
+```
+
+### Respuestas coherentes
+
+* Crear un módulo que se encarga de responder nuestras peticiones
+
+
+### Servir archivos estáticos
+
+* NodeJS es muy bueno para responder cualquier tipo de petición porque no se bloquea
+```
+app.use('/app', express.static('public'));
+```
+
+### Errores: Cómo presentarlos e implicaciones en la seguridad
+
+* Hay que ser muy cuidadosos con la información que entregamos al cliente.
+* Hacer logging de los errores
+* Para agregar colores al mensaje de error podemos instalar chalk
+```
+npm i chalk
+```
+
+Luego para usarlo:
+```
+// response.js
+const chalk = require('chalk')
+
+// ...
+exports.error = (req, res, error, status, details) => {
+  console.log(chalk.red('[response error]: ' + details))
+  res.status(status || 500).send({
+    error: error,
+    body: ''
+  })
+}
+```
