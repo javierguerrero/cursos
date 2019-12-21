@@ -166,7 +166,7 @@ node server
 	* req es el acrónimo de request, que significa solicitud, contiene toda la información de la solicitud, incluidos los paramétros de la solicitud, los encabezados, el cuerpo de la solicitud y más.
 	* res es el acrónimo de response, que significa respuesta, contiene la respuesta a la solicitud.
 
-### Recibir información desde el cliente: Body y Query
+### Recibir información desde el cliente: Body y Query
 
 * Instalar **nodemon** para que cada vez que haya un cambio en nuestro proyecto se reinicie el servidor
 
@@ -183,7 +183,7 @@ npm i body-parser
 ```
 * El body siempre lo encontramos en el request
 
-### Información contextual: Leer las cabeceras
+### Información contextual: Leer las cabeceras
 
 * req.headers nos va a incluir la cabecera
 * el **user-agent** es el navegador que está usando el usuario (chrome, firefox, postman)
@@ -194,7 +194,7 @@ npm i body-parser
 	* accept-language
 * Se pueden definir cabeceras personalizadas
 
-### Tipos de respuesta: Vacía, plana, con datos y estructurada
+### Tipos de respuesta: Vacía, plana, con datos y estructurada
 
 * Se puede devolver un estado
 ```
@@ -209,7 +209,7 @@ router.post('/demo', function(req, res){
 });
 ```
 
-### Respuestas coherentes
+### Respuestas coherentes
 
 * Crear un módulo que se encarga de responder nuestras peticiones
 
@@ -221,7 +221,7 @@ router.post('/demo', function(req, res){
 app.use('/app', express.static('public'));
 ```
 
-### Errores: Cómo presentarlos e implicaciones en la seguridad
+### Errores: Cómo presentarlos e implicaciones en la seguridad
 
 * Hay que ser muy cuidadosos con la información que entregamos al cliente.
 * Hacer logging de los errores
@@ -244,3 +244,9 @@ exports.error = (req, res, error, status, details) => {
   })
 }
 ```
+
+## Módulo 3
+
+### Conceptualmente: Rutas, controladores y bases de datos
+
+* 
