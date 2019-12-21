@@ -249,4 +249,15 @@ exports.error = (req, res, error, status, details) => {
 
 ### Conceptualmente: Rutas, controladores y bases de datos
 
+* server.js: encargado de recibir las peticiones será 
+* routes.js: gestiona las rutas
+
+![](img/arquitectura.jpg)
+
+
+![](img/notas-arquitectura.png)
+
+
+### Rutas y capa de red: Responsabilidades y límites
+
 * 
