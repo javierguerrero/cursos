@@ -249,7 +249,7 @@ exports.error = (req, res, error, status, details) => {
 
 ### Conceptualmente: Rutas, controladores y bases de datos
 
-* server.js: encargado de recibir las peticiones será 
+* server.js: encargado de recibir las peticiones 
 * routes.js: gestiona las rutas
 
 ![](img/arquitectura.jpg)
@@ -260,4 +260,15 @@ exports.error = (req, res, error, status, details) => {
 
 ### Rutas y capa de red: Responsabilidades y límites
 
+* 
+
+### Controladores: Definiendo la lógica de negocio
+
+* Error first pattern for JavaScript Async/Await. https://examples.dev/articles/error-first-pattern-for-es7-async-await/
+
+
+### Almacenando la información en una base de datos
+
+* Toda la lógica de almacenamiento de datos se almacena en un archivo diferente
+* Un Mock es falsear la base de datos o un servicio para validar que todo funciona correctamente
 * 
