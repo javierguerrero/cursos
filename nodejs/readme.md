@@ -9,6 +9,10 @@
 	* Nombre: Carlos Hernández
 	* Twitter: https://twitter.com/CodingCarlos
 
+otro curso relacionado de Node.js
+https://platzi.com/clases/backend-nodejs/
+
+
 ## Módulo 1
 
 ### Qué es Node y cómo instalarlo
@@ -279,6 +283,51 @@ exports.error = (req, res, error, status, details) => {
 
 * Bases de Datos Relacionales: no es una base de datos muy flexible, pero tiene a favor su gran soporte y el enorme desarrollo en herramientas para su uso. Si necesitamos cambiar un valor de un campo debemos hacerlo con todos los campos de nuestra BD, en cambio con NoSQL o No Relacional no es así.
 * Bases de Datos No Relacionales: son de bases de datos sin una tabla fija como las que sí se encuentran en las bases de datos relacionales, lo que permite una alta escalabilidad en ellas. Además, es abierta y por lo tanto flexible a diferentes tipos de datos y no necesita tantos recursos para ejecutarse; de hecho, el hardware necesario no cuesta mucho.
+* Cuando se tiene que hacer consultas muy complejas, las BD relacionaes no escalan
+* Para las bases de datos relacionales usamos el lenguaje de consulta SQL
+* Para las bases de datos NO relacionales usan sus propias librerías de consultas
+	* bases de datos de documentos
+	* bases de datos de documentos relacionados --> MongoDB
+	* bases de datos clave-valor --> Cassandra
+	* bases de datos de grafos --> Neo4j
+* Las BD No relacionales puede ser útil para la construccion de aplicaciones prototipos (aplicaciones que cambien mucho)
 
-https://mlab.com/
+### Crear y configurar tu BD con MongoDB
+
+* MongoDB Atlas es un servicio de bases de datos como servicio
+* Atlas es un servicio mantenido por el equipo que desarrolla MongoDB
+* Crear una cuenta en MongoDB Atlas --> https://www.mongodb.com/cloud/atlas
+* https://platzi.com/clases/1646-backend-nodejs/22033-creacion-de-una-bd-en-mongoatlas/
+
+
+### MongoDB I: Almacenar y leer datos
+
+* MongoDB no tiene esquemas, pero es buena práctica tenerlo
+* La librería "mongoose" nos va a permitir crear esquemas 
+```
+npm i mongoose
+```
+
+
+### MongoDB II: Actualizar datos
+
+* Lo ideal es que todas tus respuestas sean estándares. Una función asíncrona (async function) devuelve una promesa.
+* Si vamos a devolver una promesa que viene de otro módulo, no tiene sentido esperar a que se resuelva pudiendo pasar la referencia. Sin embargo, en caso de control de errores, podemos querer que la promesa se comporte de una forma determinada.
+* Ahí es cuando podemos usar los constructores, o las funciones Promise.reject() o Promise.resolve()
+
+
+### MongoDB III: Consultar datos
+
+codigo
+
+### Mongo DB IV: Eliminar datos
+
+codigo
+
+### Gesionar conexiones a la base de datos desde la API
+
+* Formas de gesionar las conexiones de la BD
+	* crear una nueva conexion que se abre y se cierra en cada peticion
+	* Compartir la conexion
+*  
 
