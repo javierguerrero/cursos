@@ -267,7 +267,7 @@ exports.error = (req, res, error, status, details) => {
 
 * 
 
-### Controladores: Definiendo la lógica de negocio
+### Controladores: Definiendo la lógica de negocio
 
 * Error first pattern for JavaScript Async/Await. https://examples.dev/articles/error-first-pattern-for-es7-async-await/
 
