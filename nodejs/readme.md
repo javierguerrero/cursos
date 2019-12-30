@@ -277,9 +277,9 @@ exports.error = (req, res, error, status, details) => {
 * Toda la lógica de almacenamiento de datos se almacena en un archivo diferente
 * Un Mock es falsear la base de datos o un servicio para validar que todo funciona correctamente
 
-## Módulo 4
+## Módulo 4
 
-### Tipos de Bases de Datos: Relacionales y No Relacionales
+### Tipos de Bases de Datos: Relacionales y No Relacionales
 
 * Bases de Datos Relacionales: no es una base de datos muy flexible, pero tiene a favor su gran soporte y el enorme desarrollo en herramientas para su uso. Si necesitamos cambiar un valor de un campo debemos hacerlo con todos los campos de nuestra BD, en cambio con NoSQL o No Relacional no es así.
 * Bases de Datos No Relacionales: son de bases de datos sin una tabla fija como las que sí se encuentran en las bases de datos relacionales, lo que permite una alta escalabilidad en ellas. Además, es abierta y por lo tanto flexible a diferentes tipos de datos y no necesita tantos recursos para ejecutarse; de hecho, el hardware necesario no cuesta mucho.
@@ -292,7 +292,7 @@ exports.error = (req, res, error, status, details) => {
 	* bases de datos de grafos --> Neo4j
 * Las BD No relacionales puede ser útil para la construccion de aplicaciones prototipos (aplicaciones que cambien mucho)
 
-### Crear y configurar tu BD con MongoDB
+### Crear y configurar tu BD con MongoDB
 
 * MongoDB Atlas es un servicio de bases de datos como servicio
 * Atlas es un servicio mantenido por el equipo que desarrolla MongoDB
@@ -309,14 +309,14 @@ npm i mongoose
 ```
 
 
-### MongoDB II: Actualizar datos
+### MongoDB II: Actualizar datos
 
 * Lo ideal es que todas tus respuestas sean estándares. Una función asíncrona (async function) devuelve una promesa.
 * Si vamos a devolver una promesa que viene de otro módulo, no tiene sentido esperar a que se resuelva pudiendo pasar la referencia. Sin embargo, en caso de control de errores, podemos querer que la promesa se comporte de una forma determinada.
 * Ahí es cuando podemos usar los constructores, o las funciones Promise.reject() o Promise.resolve()
 
 
-### MongoDB III: Consultar datos
+### MongoDB III: Consultar datos
 
 codigo
 
@@ -324,10 +324,28 @@ codigo
 
 codigo
 
-### Gesionar conexiones a la base de datos desde la API
+### Gesionar conexiones a la base de datos desde la API
 
 * Formas de gesionar las conexiones de la BD
 	* crear una nueva conexion que se abre y se cierra en cada peticion
 	* Compartir la conexion
-*  
+
+
+## Módulo 5
+
+### Escalando la arquitectura: Múltiples entidades
+
+* 
+
+### Relacionando nuestras entidades
+
+* 
+
+### Cómo recibir ficheros desde NodeJS
+
+* 
+
+### Guardar el fichero en el servidor
+
+* 
 
