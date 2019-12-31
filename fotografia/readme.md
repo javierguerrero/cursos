@@ -12,16 +12,20 @@
 ### ¿Qué es una cámara fotográfica?
 
 * Anatomía de una cámara
+
 ![](img/anatomia-camara.png)
+
 * Tipos
 	* análoga
 	* digital
 	* digital compacta
 * Reflex vs Mirrorless
+
 ![](img/reflex-mirrorless.png)
+
 * Las cámaras compactas usan el sistemas mirrorless
 
-### El formato fotográfico: análogo vs digital
+### El formato fotográfico: análogo vs digital
 * El formato fotográfico define la dimensión y la relación de aspecto de una imagen.
 
 ### Cómo manipular una cámara
