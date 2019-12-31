@@ -335,15 +335,21 @@ codigo
 
 ### Escalando la arquitectura: Múltiples entidades
 
-* 
+* código
 
 ### Relacionando nuestras entidades
 
-* 
+* código
 
 ### Cómo recibir ficheros desde NodeJS
 
-* 
+* un archivo no es más que un montón de texto
+* los archivos se envian con el método multi-part
+* instalar paquete para manejo de archivos
+```
+npm i multer
+```
+* agregar multer como un middleware express
 
 ### Guardar el fichero en el servidor
 
