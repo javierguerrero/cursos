@@ -353,5 +353,20 @@ npm i multer
 
 ### Guardar el fichero en el servidor
 
+* codigo
+
+## Módulo 6
+
+### WebSockets: Qué son, por qué son interesantes y cómo usarlos
+
+* Para las conexiones en tiempo real se usa el protocolo WebSockets (diferente al protocolo HTTP). 
+* Cuando se usa el protocolo WebSockets se crea un tunel de información entre el usuario y el servidor.
+
+![](img/WebSockets2.png)
+
+### Manejo de Websockets con NodeJS
+
 * 
+
+### Conectar la API al servidor de WebSockets
 
