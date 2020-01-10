@@ -64,6 +64,34 @@
 
 ## Aprender a medir la luz
 
+* ¿Qué es la exposición fotográfica?
+	* La exposición fotográfica es la cantidad de luz necesaria para crear una imagen en el soporte y se mide a través de 3 parámetros:
+    	* Sensibilidad a la luz del soporte.
+    	* Tiempo de exposición a la luz.
+    	* El diafragma de tu cámara.
+	* ISO es una convención a nivel mundial para expresar la sensibilidad a la luz de nuestro soporte y se expresa en valores numéricos.
+
+	![](img/sensibilidad-iso.png)
+
+	* Una fotografía puede llegar a estar subexpuesta o sobreexpuesta. Las fotografías subexpuestas tienden a ser más oscuras ya que tienen menos luz, mientras que las sobreexpuestas tienen un alto nivel de luz.
+
+
+	![](img/escala-velocidades.png)
+
+
+	![](img/apertura-diafragma.png)
+
+
+	![](img/subexposicion-sobreexposicion.png)
+
+
+	![](img/exposimetro.png)
+
+* El obturador y el tiempo de exposición
+	* El obturador se encarga de controlar el tiempo de entrada de la luz, sus medidas van desde segundos enteros hasta fracciones de segundo.
+	* Un tiempo de exposición corto va a “congelar” el movimiento del objeto que estés tomando, mientras que un tiempo más largo va a captar el movimiento.
+
+
 ## Los Lentes fotográficos
 
 ## El arte de fotografíar
