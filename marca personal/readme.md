@@ -209,9 +209,50 @@ Para escribir un buen artículo en internet necesitas cumplir con 5 condiciones:
     * Pide ayuda. Dile a un amigo o familiar que lea lo que escribiste antes de publicar. Seguro conoces a alguien que te gusta cómo escribe y que te puede señalar mejoras.
     * Lee mucho. La mejor forma de mejorar tu forma de escribir es leyendo.
 
-### Por qué tner tu marca personal en YouTube
+### Por qué tener tu marca personal en YouTube
+
+> La mayoría del contenido que se consume en internet son videos, por eso es importante incluirlos dentro de tu marca personal. No hace falta tener demasiados recursos para producir video, en principio todo lo que necesitas está en tu smartphone. Si quieres hacer videos increíbles te recomiendo el Curso de Edición de Video con Premiere PRO, el de After Effects y el de Producción de Video para YouTube.
+
+#### ¿Por qué tener un un canal de youtube?
+* El 73% del consumo de contenido en internet es en video
+* YouTube tiene 1 billón de usuarios, 1/3 de los usuarios de Internet en el mundo
+* YouTube es el segundo buscador más importante de Internet
+* El 45% de los usuarios de internet miran una hora de YouTube o más a la semana
+* Es prácticamente gratis
+* Es un símbolo de éxito y seguridad. Las personas exitosas hacen videos
+
+#### Content Marketing
+* Un tipo de marketing que involucra la creación y difusión de contenido de valor. 
+* Curso de content marketing --> https://platzi.com/cursos/contenido/
+
+
+#### Tipos de creadores
+* Marca personal
+	* Maider Tomasena - Experta en copywriting
+* Empresa
+* Youtuber
+	* Luisito Comunica - Youtuber mexicano
+
+#### Las claves del éxito
+* Creatividad
+* Disciplina
+* Timming
+
+curso: platzi.com/youtube
+
+#### ¿Qué medir?
+* Leads
+* Compras
+* Referidos
+* Suscriptores
+* Ventas
+* Tasa de conversión
 
 ### Crea tu canal de YouTube
+* 
+
+
 
 
 ## Desarrollo de un portafolio de proyectos
+
