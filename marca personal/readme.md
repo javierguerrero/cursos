@@ -249,7 +249,23 @@ curso: platzi.com/youtube
 * Tasa de conversión
 
 ### Crea tu canal de YouTube
-* 
+
+proximamednte
+
+### Pasos para crear un videotutorial
+
+1. analizar el tema del cual voy a hablar
+2. preparar el post para el blog
+3. revisar el post para posibles correcciones
+4. elaborar un guíon. estudiarlo, repasarlo antes de empezar a grabar
+* http://berritzegunenagusia.eus/eskola20/formacion/tutoriales/nivel2/poligonos/modulos/es/content_1_17.html
+5. preparar micrófono
+6. grabar video con camtasia studio
+7. editar video con camtasia studio
+
+como hacer un videotutorial
+https://www.youtube.com/watch?v=aQK9jRP9PBs
+
 
 
 
