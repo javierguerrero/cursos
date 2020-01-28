@@ -86,7 +86,7 @@ Vamos a ver diferentes comandos que nos serán de gran utilidad:
 
 proximamente
 
-### Crea llaves SSH
+### Crea llaves SSH
 
 Las llaves SSH nos van a ayudar para autentificarnos contra servidores. SSH utiliza criptografía asimétrica, o sea, tenemos dos llaves:
 * Pública: la llave pública la podemos compartir por internet.
@@ -114,19 +114,59 @@ si accedemos a la carpeta donde se generó la clave, entonces encontraremos una 
 
 ## Configuración entorno de desarrollo
 
+### Configuración de ZSH para Windows con Linux Shell
+
+* Windows 10 nos permite ejecutar linux --> instalar ubuntu
+* Instalar hyper
+	* Hyper es una terminal multiplataforma
+	* https://hyper.is
+* Instalar ZSH
+```
+sudo apt-get install zsh
+```
+
+* Hacer que ZSH sea el shell por defecto de nuestro sistema
+
+Zsh = Es un intérprete de comandos para unix
+Oh My Zsh = nos permite personalizar y mejorar Zsh con temas, complementos, funciones, etc.
+
+
+### Cómo instalar Node.js
+
+* Node.js es un entorno de ejeución para JavaScript en el lado del servidor.
+* Al escribir el comando `node` se nos abrirá un shell interactivo donde podremos escribir código javascript
+* Npm es el manejador de paquetes de Node.js. Con é podemos instalar **dependencias** a nuestro proyecto o instalar programas globalmente en nuestro sistemas.
+
+
+### Instalación y configuración de VSCode
+
+Si la primera mejor amiga del programador es la línea de comandos, es momento de instalar y configurar el segundo mejor amigo del programador: el editor de código.
+
+Existen multiples editores de código, para la escuela de JavaScript vamos a utilizar Visual Studio Code. Vamos a añadir diferentes plugins para VSCode:
+
+* Git Blame: va a mostrar el autor de la línea de código en la que estemos trabajando.
+* ESLint: es una herramienta de análisis de código estático para identificar patrones problemáticos encontrados en el código JavaScript, o sea, nuestro linter. Debemos instalar y configurar eslint para que siga el estilo de código que le indiquemos.
+* Color Highlight: resalta el color que estemos escribiendo.
+* SASS: es un preprocesador de CSS.
+
+### Google Chrome para desarrollo fronted
+
+pendiente
+
+### Herramientas de desarrollo Backend: JSON Viewer y Postman
+
+pendiente
+
+
 ## Git y GitHub
 
-## Configuración entorno de desarrollo
-
-## Git y GitHub
-
-### ¿Qué es Git, para qué se usa y qué resuelve?
+### ¿Qué es Git, para qué se usa y qué resuelve?
 
 Git es un sistema de control de versiones que nos permite llevar un histórico sobre los cambios de nuestro proyecto, no es el único sistema de control de versiones, pero sí el más usado. Fue creado por Linus Torvalds. Git y GitHub no son lo mismo, uno es el sistema de control de versiones y el otro es la red social de programadores.
 
 Los repositorios son una estructura de datos que almacenan información sobre archivos y directorios. Es el inicio de todo proyecto con Git, dentro de un repositorio encontraremos ramas, no son más que la duplicación de un objeto bajo un repositorio, permite trabajar en paralelo para al final unir los cambios.
 
-### Instalación de Git
+### Instalación de Git
 
 Es como instalar una aplicación más en Windows, el instalador lo consigues acá https://gitforwindows.org, debes descargarlo y abrirlo. Allí se te abrirá una ventana de instalación y solo debes seguir los pasos que te diga.
 Git nos instala una terminal que se llama git shell esto es una terminal distinta a la que trae el sistema operativo, es muy similar a la que podríamos tener en Unix, incluso puede ser un reemplazo de Hyper o de la terminal de Ubuntu.
@@ -211,4 +251,23 @@ para añadir varios archivos a los cambios
 git add .
 ```
 
+### Github: configuración, repositorio remoto, push y pull
 
+* Crear cuenta en Github
+* Github >> Settings >> SSH and GPG Keys
+* Al crear una conexión SSH nos permitirá crear una conexión segura entre Github y nuestra computadora
+* Para ver la llave dentro de nuestro sistemas vamos a la terminal de comando y entramos a la carpeta ".ssh". Hacemos cat de la llave pública y la agregamos en Github
+* En Github creamos un repositorio y en el botón "Clone or download" usamos la opción "Clone with SSH"
+* En la terminal, vamos a la carpeta donde queremos que esté ubicado el proyecto  y colocamos el siguiente comando:
+```
+git clone git@github.com:javierguerrero/que-cocino-hoy.git
+```
+
+### Cómo crear un buen README.md y sintaxis de markdown
+
+* El README sirve para hacer la descripción del proyecto
+* Se escribe en formato markdown
+	* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* Editor online markdown
+	* https://pandao.github.io/editor.md/en.html
+	* https://dillinger.io

@@ -33,7 +33,7 @@ Los valores que me definen como persona son:
 
 ### Crear tus perfiles en comunidades profesionales
 
-* Tu marca personal es el primer punto de impacto en el cual las personas te conocen. y esto puede ser a través de:
+* Tu marca personal es el primer punto de impacto por el cual las personas te conocen y esto puede ser a través de:
 	* Facebook
 	* Instagram
 	* Twitter
@@ -267,8 +267,29 @@ como hacer un videotutorial
 https://www.youtube.com/watch?v=aQK9jRP9PBs
 
 
-
-
-
 ## Desarrollo de un portafolio de proyectos
+
+### tu portafolio es tu mejor curriculum
+
+### Cómo llamar la atención de reclutadores
+
+Pasos para conseguir empleo:
+
+* Tener una marca personal
+* Crear proyectos personales 
+```
+- introbooks
+- cursos online
+- aplicación: gastro tour
+```
+* Unir tu marca personal a tus proyectos y exponerlo en u portafolio
+* Investiga donde quieres trabajar
+	* los reclutadores y los líderes son los que tienen la última palabra porque necesitan ampliar el equipo
+
+* Tips
+	* Ignorar a los reclutadores y tratar de contactar a la empresa
+	* Hacer el mejor esfuerzo y buscar que nos presenten dentro de la empresa
+	* 
+
+### Tips para entrevistas de trabajo
 
