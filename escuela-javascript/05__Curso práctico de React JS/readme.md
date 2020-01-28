@@ -80,7 +80,7 @@ Recuerda que los nombres de estos eventos deben seguir la nomenclatura camelCase
 
 ## MODULO 3: Configurar un entorno de trabajo profesional
 
-### Instalación y configuración de entorno
+### Instalación y configuración de entorno
 
 * crear carpeta de proyecto
 * inicializar git 
@@ -107,7 +107,7 @@ package.json
 npm install react react-dom
 ```
 
-### Compatibilidad con todos los navegadores usando Babel
+### Compatibilidad con todos los navegadores usando Babel
 
 Babel es una herramienta muy popular para escribir JavaScript moderno y transformarlo en código que pueda entender cualquier navegador.
 Instalación de Babel y otras herramientas para que funcione con React:
@@ -117,7 +117,7 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-l
 ```
 
 Configuración de Babel (.babelrc):
-````
+```
 {
   "presets": [
     "@babel/preset-env",
@@ -126,7 +126,7 @@ Configuración de Babel (.babelrc):
 }
 ```
 
-### Webpack: Empaquetando nuestros módulos
+### Webpack: Empaquetando nuestros módulos
 
 "Webpack es una herramienta que nos ayuda a compilar multiples archivos (JavaScript, HTML, CSS, imágenes) en uno solo (o a veces un poco más) que tendrá todo nuestro código listo para producción.
 
@@ -190,7 +190,7 @@ npm run build
 ```
 
 
-### Webpack Dev Server: Reporte de errores y Cambios en tiempo real
+### Webpack Dev Server: Reporte de errores y Cambios en tiempo real
 
 Instalación de Webpack Dev Server:
 ```
@@ -212,7 +212,7 @@ ejecutar servidor de webpack
 npm run start
 ```
 
-### Estilos con SASS
+### Estilos con SASS
 
 Los preprocesadores como Sass son herramientas que nos permiten escribir CSS con una sintaxis un poco diferente y más amigable que luego se transformará en CSS normal. Gracias a Sass podemos escribir CSS con variables, mixins, bucles, entre otras características.
 
@@ -245,7 +245,7 @@ plugins: [
 ],
 ```
 
-### Configuración final: ESLint y Git Ignore
+### Configuración final: ESLint y Git Ignore
 
 El Git Ignore es un archivo que nos permite definir qué archivos NO queremos publicar en nuestros repositorios. Solo debemos crear el archivo .gitignore y escribir los nombres de los archivos y/o carpetas que no queremos publicar.
 
@@ -264,14 +264,15 @@ https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
 
 
 
-### Arquitectura de componentes para Platzi Video
+### Arquitectura de componentes para Platzi Video
 
+componentinizar...
 
 
 
 ## MODULO 4
 
-## MODULO 5
+## MODULO 5
 
 ## MODULO 6
 
