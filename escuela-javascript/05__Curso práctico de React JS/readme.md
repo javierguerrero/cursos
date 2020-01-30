@@ -268,9 +268,106 @@ https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
 
 componentinizar...
 
+## MODULO 4: Llevar un diseño de HTML y CSS a React
 
+### Estructura del Header
 
-## MODULO 4
+Repositorio: https://github.com/platzi/curso-frontend-escuelajs
+codigo
+
+### Estilos del Header
+
+codigo
+
+### Estructura y Estilos del Buscador
+
+codigo
+
+### Estructura y Estilos de Carousel y Carousel Item
+
+codigo
+
+### Estructura y Estilos del Footer
+
+codigo
+
+### Añadiendo imágenes con Webpack
+
+Vamos a usar File Loader para acceder a las imágenes de nuestro proyecto desde el código.
+Inicialmente, estos archivos estáticos se encuentran junto al código de desarrollo. Pero al momento de compilar, Webpack guardará las imágenes en una nueva carpeta junto al código para producción y actualizará nuestros componentes (o donde sea que usemos las imágenes) con los nuevos nombres y rutas de los archivos.
+Instalación de File Loader:
+
+```
+npm install --save-dev file-loader
+```
+
+Configuración de File Loader en Webpack (webpack.config.js):
+
+```js
+rules: [
+  {
+    test: /\.(png|gif|jpg)$/,
+    use: [
+      {
+        loader: 'file-loader',
+        options: { name: 'assets/[hash].[ext]' },
+      }
+    ],
+  },
+],
+```
+
+Uso de File Loader con React:
+
+```js
+import React from 'react';
+import nombreDeLaImagen from '../assets/static/nombre-del-archivo';
+
+const Component = () => (
+  <img src={nombreDeLaImagen} />
+);
+
+export default Component;
+```
+
+### Imports, Variables y Fuentes de Google en Sass
+
+Así como JavaScript, Sass nos permite almacenar valores en variables que podemos usar en cualquier otra parte de nuestras hojas de estilo.
+
+```css
+$theme-font: 'Muli, sans-serif;
+$main-color: #8f57fd;
+
+body {
+  background: $main-color;
+  font-family: $theme-font;
+}
+```
+
+Podemos guardar nuestras variables en un archivo especial e importarlo desde los archivos de estilo donde queremos usar estas variables.
+
+```css
+# Vars.scss
+$theme-font: 'Muli, sans-serif;
+$main-color: #8f57fd;
+
+# App.scss
+@import ""./Vars.scss""
+
+`body {
+  background: $main-color;
+  font-family: $theme-font;
+}
+```
+
+También podemos importar hojas de estilo externas a nuestra aplicación. Por ejemplo: las fuentes de Google.
+
+```css
+@import url(https://fonts.googleapis.com/css?family=Muli&display-swap)
+```
+
+cursos SASS --> https://platzi.com/clases/sass/
+
 
 ## MODULO 5
 
