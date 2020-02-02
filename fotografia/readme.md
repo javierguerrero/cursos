@@ -135,14 +135,68 @@ Subexposición para transmitir
 * desolación
 
 
-
-
-
 ## Los Lentes fotográficos
 
 ## El arte de fotografíar
 
 ## Los géneros fotográficos
+
+### Fotografía de retrato
+
+* Preguntate: ¿Qué sientes cuando miras esta fotografía?
+* Irving Penn
+	* Le interesaba mucho la actitud y la pose del modelo en la foto
+	* http://www.caborian.com/ha-muerto-irving-penn/
+* Annie Leibovitz
+
+### Still life: el arte de retratar objetos
+
+Still life es un género fotográfico que busca darle vida a objetos estáticos e inspira al fotógrafo a crear mundos que no existen.
+
+* darle vida a la naturaleza muerta
+* Edward Weston
+	* Grupo F64
+* Josef Sudek
+* Francesco Tonelli
+* Carl Warner
+
+### Fotografía de moda y publicidad
+
+La fotografía de moda nace en 1900 en Francia debido a la importancia que fue adquiriendo la revista Vogue.
+
+* Helmut Newton
+* Tim Walker
+* Paolo Roversi
+
+### Fotografía de paisaje a través de grandes maestros
+
+* Ansel Adams
+	* Sistema de zonas
+* Frans Lanting
+* Art Wolfe
+
+### Fotografía de arquitectura y espacio urbano
+
+Antes de tomar una fotografía de arquitectura:
+* Piensa en el edificio o lugar que vas a tomar.
+* Analiza cómo llega la luz a ese lugar, ¿Cuál es la hora adecuada para fotografiar?
+* Lleva contigo un kit de filtros.
+
+* Sebastian Weiss
+* Mike Hollmann
+* Heroshi Sugimoto
+
+### El fotoreportaje y sus fundadores
+
+El fotoreportaje nació a mitad de 1900 debido a la necesidad de contar y acompañar el periodismo con imágenes. La fotografía tenía la finalidad de registrar las guerras que pasaban en esa época.
+
+Reto: Empieza a definir tu estilo como fotógrafo, toma 3 fotografías inspiradas en algún género.
+
+* Henry Cartier Bresson
+* Robert Capa
+* Sebastiao Salgado
+
+
 
 ## Bases de Iluminación para Fotografía de Interiores
 
@@ -232,3 +286,7 @@ En resumen:
 * Tenemos que elegir el efecto que queremos conseguir
 * Luego tenemos que complementar las herramientas para conseguir una exposición correcta
 
+## Anexo 2: Tips
+
+* Previsualizar la foto que vas a tomar
+* 
