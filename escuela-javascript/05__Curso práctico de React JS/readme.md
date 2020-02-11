@@ -222,7 +222,7 @@ npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader
 ```
 
 Configuración de Sass en Webpack (webpack.config.js):
-```
+```js
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // ...
 module: {
@@ -270,20 +270,20 @@ componentinizar...
 
 ## MODULO 4: Llevar un diseño de HTML y CSS a React
 
-### Estructura del Header
+### Estructura del Header
 
 Repositorio: https://github.com/platzi/curso-frontend-escuelajs
 codigo
 
-### Estilos del Header
+### Estilos del Header
 
 codigo
 
-### Estructura y Estilos del Buscador
+### Estructura y Estilos del Buscador
 
 codigo
 
-### Estructura y Estilos de Carousel y Carousel Item
+### Estructura y Estilos de Carousel y Carousel Item
 
 codigo
 
@@ -291,7 +291,7 @@ codigo
 
 codigo
 
-### Añadiendo imágenes con Webpack
+### Añadiendo imágenes con Webpack
 
 Vamos a usar File Loader para acceder a las imágenes de nuestro proyecto desde el código.
 Inicialmente, estos archivos estáticos se encuentran junto al código de desarrollo. Pero al momento de compilar, Webpack guardará las imágenes en una nueva carpeta junto al código para producción y actualizará nuestros componentes (o donde sea que usemos las imágenes) con los nuevos nombres y rutas de los archivos.
@@ -330,7 +330,7 @@ const Component = () => (
 export default Component;
 ```
 
-### Imports, Variables y Fuentes de Google en Sass
+### Imports, Variables y Fuentes de Google en Sass
 
 Así como JavaScript, Sass nos permite almacenar valores en variables que podemos usar en cualquier otra parte de nuestras hojas de estilo.
 
@@ -366,12 +366,98 @@ También podemos importar hojas de estilo externas a nuestra aplicación. Por ej
 @import url(https://fonts.googleapis.com/css?family=Muli&display-swap)
 ```
 
-cursos SASS --> https://platzi.com/clases/sass/
+curso SASS --> https://platzi.com/clases/sass/
 
 
-## MODULO 5
+## MODULO 5: Uso de una API de desarrollo (Fake API)
 
-## MODULO 6
+### Creando una Fake API
+
+Vamos a usar JSON Server para crear una Fake API: una API "falsa" construida a partir de un archivo JSON que nos permite preparar nuestro código para consumir una API de verdad en el futuro.
+
+Instalación de JSON Server:
+```
+--Recuerda que en Windows debes correr tu terminal de comandos en modo administrador.
+sudo npm install json-server -g
+
+--Ejecutar el servidor de JSON Server:
+json-server archivoParaTuAPI.json
+```
+
+JSON Server hay que levantarlo en otra terminal (es otro proceso independiente de nuestra aplicación)
+
+https://gist.github.com/gndx/d4ca4739450afaa614efe4570ac362ee
+
+### React Hooks: useEffect y useState
+
+Qué es y cómo implementar React Hooks: una característica de React disponible a partir de la versión 16.8 que nos permite agregar estado y ciclo de vida a nuestros componentes creados como funciones.
+
+React es una librería desarrollada por Facebook que nos ayuda a construir interfaces de usuario interactivas para todo tipo de aplicaciones: páginas web, aplicaciones móviles o de escritorio, experiencias de realidad virtual, entre otras.
+
+### Lectura React Hooks
+...
+
+### Conectando la información de la API
+...
+
+### Custom Hooks
+
+React nos permite crear nuestros propios Hooks. Solo debemos seguir algunas convenciones:
+Los hooks siempre deben empezar con la palabra use: useAPI, useMovies, useWhatever.
+Si nuestro custom hook nos permite consumir/interactuar con dos elementos (por ejemplo, title y setTitle), nuestro hook debe devolver un array.
+
+Si nuestro custom hook nos permite consumir/interactuar con tres o más elementos (por ejemplo, name, setName, lastName, setLastName, etc.), nuestro hook debe devolver un objeto.
+Recuerda que puedes aprender más sobre Custom Hooks y las nuevas características de React en el Curso Avanzado de React JS --> https://platzi.com/clases/react-avanzado/
+
+
+### PropTypes
+
+Los PropTypes son una propiedad de nuestros componentes que nos permiten especificar qué tipo de elementos son nuestras props: arrays, strings, números, etc.
+Instalación de PropTypes:
+
+```
+npm install --save prop-types
+```
+
+Uso de PropTypes:
+```js
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const Component = ({ name, lastName, age, list }) => {
+  // ...
+};
+
+Component.propTypes = {
+  name: PropTypes.string,
+  lastName: PropTypes.string,
+  age: PropTypes.number,
+  list: PropTypes.array,
+};
+
+export default Component;
+```
+
+Por defecto, enviar todas nuestras props es opcional, pero con los propTypes podemos especificar cuáles props son obligatorias para que nuestro componente funcione correctamente con el atributo isRequired.
+```js
+Component.propTypes = {
+  name: PropTypes.string.isRequired, // obligatorio
+  lastName: PropTypes.string.isRequired, // obligatorio
+  age: PropTypes.number, // opcional,
+  list: PropTypes.array, // opcional
+};
+```
+
+
+## MODULO 6: Usar React Tools
+
+### Debuggeando React con React DevTools
+
+React DevTools es una herramienta muy parecida al Inspector de Elementos. Nos permite visualizar, analizar e interactuar con nuestros componentes de React desde el navegador.
+Encuentra más información sobre está herramienta en: github.com/facebook/react-devtools.
+
+
+
 
 
 
